@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:updatePeriodMillis="3600000"
+    android:initialLayout="@layout/widget_main"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen"
+    >
+    <!-- TODO increase updatePeriod! or maybe use Alarms as described in the documentation
+    OK, if I put a Chrono into the widget, I may not need a frequent update
+    check if I can update on demand -->
+</appwidget-provider>
